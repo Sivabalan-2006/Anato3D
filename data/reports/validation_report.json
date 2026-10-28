@@ -1,0 +1,60 @@
+{
+    "project": "Anato3D",
+    "modality": "CT",
+    "volume": {
+        "size": [
+            394,
+            394,
+            428
+        ],
+        "spacing_mm": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "origin": [
+            -199.615234375,
+            -356.615234375,
+            -424.5
+        ],
+        "direction": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "structures": [
+        {
+            "name": "Left Kidney",
+            "mask_volume_cm3": 184.689,
+            "mesh_volume_cm3": 184.614,
+            "volume_error_cm3": 0.075,
+            "volume_error_percent": 0.0406,
+            "surface_area_cm2": 308.081,
+            "vertices": 34545,
+            "faces": 69078,
+            "watertight": true,
+            "valid_volume": true,
+            "winding_consistent": true
+        },
+        {
+            "name": "Right Kidney",
+            "mask_volume_cm3": 218.946,
+            "mesh_volume_cm3": 218.847,
+            "volume_error_cm3": 0.099,
+            "volume_error_percent": 0.0451,
+            "surface_area_cm2": 336.234,
+            "vertices": 37784,
+            "faces": 75564,
+            "watertight": true,
+            "valid_volume": true,
+            "winding_consistent": true
+        }
+    ]
+}
