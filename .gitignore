@@ -1,2 +1,7 @@
+# Large medical imaging files
 data/*.nii
 data/*.nii.gz
+
+# Generated outputs
+data/meshes/
+data/segmentation/
